@@ -1,1 +1,23 @@
-/* You can add global styles to this file, and also import other style files */
+:root{
+    --bg-color: #1f242d;
+    --second-background-color: #293535;
+    --text-color: #fff;
+    --main-color: #dd3869;
+}
+/*#49cea6*/
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html {
+    overflow-x: hidden;
+    font-size: 80%;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
