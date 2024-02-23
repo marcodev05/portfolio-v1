@@ -5,12 +5,20 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './components/home/home.component';
 import { ButtonComponent } from './components/shared/button/button.component';
+import { HeaderComponent } from './components/header/header.component';
+import { ProfileImgComponent } from './components/shared/profile-img/profile-img.component';
+import { NavbarComponent } from './components/navbar/navbar.component';
+import { SocialMediaComponent } from './components/shared/social-media/social-media.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     ButtonComponent,
+    HeaderComponent,
+    ProfileImgComponent,
+    NavbarComponent,
+    SocialMediaComponent,
   ],
   imports: [
     BrowserModule,

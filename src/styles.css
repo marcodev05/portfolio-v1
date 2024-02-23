@@ -1,23 +1,28 @@
+@import url('https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css');
+
 :root{
     --bg-color: #1f242d;
     --second-background-color: #293535;
     --text-color: #fff;
-    --main-color: #dd3869;
+    --main-color: #e26dc5;
+    --second-color:rgb(126, 76, 76);
 }
 /*#49cea6*/
+/*#dd3869;*/
 * {
-    margin: 0;
-    padding: 0;
+
     text-decoration: none;
+    scroll-behavior: smooth;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 html {
     overflow-x: hidden;
-    font-size: 80%;
+    font-size: 90%;
 }
 
 body {
+    margin: 0px;
     background-color: var(--bg-color);
     color: var(--text-color);
 }
