@@ -16,3 +16,8 @@
     box-shadow: 0 0 2rem var(--main-color);
     color: white;
 }
+
+.btn-sm {
+    padding: .5rem 1.5rem;
+    font-size: 0.8rem;
+}

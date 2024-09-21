@@ -9,6 +9,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { ProfileImgComponent } from './components/shared/profile-img/profile-img.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { SocialMediaComponent } from './components/shared/social-media/social-media.component';
+import { ProjectsComponent } from './components/projects/projects.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { SocialMediaComponent } from './components/shared/social-media/social-me
     ProfileImgComponent,
     NavbarComponent,
     SocialMediaComponent,
+    ProjectsComponent,
   ],
   imports: [
     BrowserModule,
